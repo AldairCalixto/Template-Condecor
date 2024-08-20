@@ -9,7 +9,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="fullscreen-slide-in">
 
 
     <!-- Header -->
@@ -120,7 +120,7 @@
                                 <div class="col-md-3">
                                     <a class="dropdown-item" href="about.html">Acerca de</a>
                                     <a class="dropdown-item" href="contact.html">Contacto</a>
-                                    <a class="dropdown-item" href="faq.html">Fac</a>                                    
+                                    <a class="dropdown-item" href="faq.html">Faq</a>                                    
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                       <option value="3">Newest</option>
                     </select>
                   </div>
-                  <div>
+                  <div id="result-count">
                     <span>Showing 1 - 15 of 20 results</span>
                   </div>
                 </div>
@@ -188,10 +188,10 @@
                   <!-- Producto 1 -->
                   <div class="col-md-4 product-item">
                       <div class="card">
-                          <img src="img/paquetes.png" class="card-img-top" alt="Paquete 1">
+                          <img src="img-product/paquete1.webp" class="card-img-top" alt="Paquete 1">
                           <div class="card-body text-center">
-                              <h6 class="card-title">Paquete 1</h6>
-                              <p class="card-text text-primary">1,100.00 MXN</p>
+                              <h6 class="card-title">Cuadro Personalizado 100x80 cm (con Bastidor)</h6>
+                              <p class="card-text text-primary">1,950.00 MXN</p>
                               <!-- Botón que activa el modal -->
                               <a href="paquete1.html" class="btn btn-primary" >
                                   Ver Detalles
@@ -203,9 +203,9 @@
                   <!-- Producto 2 -->
                   <div class="col-md-4 product-item">
                       <div class="card">
-                          <img src="img/paquetes.png" class="card-img-top" alt="Paquete 2">
+                          <img src="img-product/paquete2.webp" class="card-img-top" alt="Paquete 2">
                           <div class="card-body text-center">
-                              <h6 class="card-title">Paquete 2</h6>
+                              <h6 class="card-title">Retrato personalizado en cuadro canvas</h6>
                               <p class="card-text text-primary">1,100.00 MXN</p>
                               <!-- Botón que activa el modal -->
                               <a href="paquete2.html" type="button" class="btn btn-primary">
@@ -218,10 +218,10 @@
                   <!-- Producto 3 -->
                   <div class="col-md-4 product-item">
                       <div class="card">
-                          <img src="img/paquetes.png" class="card-img-top" alt="Paquete 3">
+                          <img src="img-product/paquete3.webp" class="card-img-top" alt="Paquete 3">
                           <div class="card-body text-center">
-                              <h6 class="card-title">Paquete 3</h6>
-                              <p class="card-text text-primary">1,100.00 MXN</p>
+                              <h6 class="card-title">2 cuadros personalizados (MDF) de 30x20 cm</h6>
+                              <p class="card-text text-primary">500.00 MXN</p>
                               <!-- Botón que activa el modal -->
                               <a href="paquete3.html" type="button" class="btn btn-primary">
                                   Ver Detalles
@@ -232,10 +232,10 @@
 
                   <div class="col-md-4 product-item mt-4">
                     <div class="card">
-                        <img src="img/paquetes.png" class="card-img-top" alt="Paquete 1">
+                        <img src="img-product/paquete4.webp" class="card-img-top" alt="Paquete 1">
                         <div class="card-body text-center">
-                            <h6 class="card-title">Paquete 4</h6>
-                            <p class="card-text text-primary">1,100.00 MXN</p>
+                            <h6 class="card-title">Cuadro personalizado (MDF) de 30x40 cm</h6>
+                            <p class="card-text text-primary">500.00 MXN</p>
                             <!-- Botón que activa el modal -->
                             <a href="paquete4.html" class="btn btn-primary" >
                                 Ver Detalles
@@ -246,12 +246,41 @@
 
                 <div class="col-md-4 product-item mt-4">
                     <div class="card">
-                        <img src="img/paquetes.png" class="card-img-top" alt="Paquete 1">
+                        <img src="img-product/paquete5.webp" class="card-img-top" alt="Paquete 1">
                         <div class="card-body text-center">
-                            <h6 class="card-title">Paquete 5</h6>
-                            <p class="card-text text-primary">1,100.00 MXN</p>
+                            <h6 class="card-title">Cuadro Personalizado 60x40 cm (con Bastidor)</h6>
+                            <p class="card-text text-primary">1,050.00 MXN</p>
                             <!-- Botón que activa el modal -->
                             <a href="paquete5.html" class="btn btn-primary" >
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 product-item mt-4">
+                    <div class="card">
+                        <img src="img-product/paquete6.webp" class="card-img-top" alt="Paquete 1">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Cuadro Personalizado 70x50 cm (con Bastidor)</h6>
+                            <p class="card-text text-primary">1,250.00 MXN</p>
+                            <!-- Botón que activa el modal -->
+                            <a href="paquete6.html" class="btn btn-primary" >
+                                Ver Detalles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 product-item mt-4">
+                    <div class="card">
+                        <img src="img-product/paquete7.webp" class="card-img-top" alt="Paquete 1">
+                        <div class="card-body text-center">
+                            <h6 class="card-title">Cuadro Personalizado 90x60 cm (con Bastidor)</h6>
+                            <p class="card-text text-primary">1,250.00 MXN</p>
+                            <!-- Botón que activa el modal -->
+                            <a href="paquete7.html" class="btn btn-primary" >
                                 Ver Detalles
                             </a>
                         </div>

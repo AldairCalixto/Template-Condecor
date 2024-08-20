@@ -187,3 +187,20 @@ footer .bi {
     line-height: 1.2;
 }
 
+/* -------------------------------------
+ */
+ @keyframes slideInFromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-100%) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.fullscreen-slide-in {
+    animation: slideInFromTop 2s ease-in-out; /* Duración de 2 segundos y función de tiempo suavizada */
+}
+
